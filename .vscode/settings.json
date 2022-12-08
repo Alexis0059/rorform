@@ -1,0 +1,24 @@
+{
+    "dataworkspace.excludedProjects": [
+        "rorform/rorform.sqlproj",
+        "db/migrate/ror/ror.sqlproj"
+    ],
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "askForPassword": true,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "rorform",
+            "socketPath": "/home/alexis/Sites/rorform/db/migrate/20221124110337_create_posts_table.rb",
+            "username": "postgres",
+            "database": "postgres"
+        }
+    ]
+}

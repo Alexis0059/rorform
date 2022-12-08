@@ -1,0 +1,10 @@
+<h1>Clients</h1>
+<p></p>
+<% @clients.each do |client| %>
+  <h2><%= client.first_name %></h2>
+  <p><%= client.last_name %></p>
+  <p><%= client.role%></p>
+  <p>
+    <a href='<%= client_path(client.id)%>" class="btn btn-primary">Lire la suite</a>
+  </p>  
+<% end %>
